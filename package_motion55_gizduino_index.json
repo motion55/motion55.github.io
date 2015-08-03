@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "name": "Gizuino",
+      "maintainer": "motion55",
+      "websiteURL": "http://motion55.github.io/Gizuino/",
+      "email": "motion55@users.noreply.github.com",
+      "help": {
+        "online": "https://github.com/motion55/gizuino/"
+      },
+      "platforms": [
+        {
+          "name": "Gizduino Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.elab.ph/forum/index.php?board=140.0"
+          },
+          "url": "https://github.com/motion55/gizduino/releases/download/0.0.1/gizduino.zip",
+          "archiveFileName": "gizduino.zip",
+          "checksum": "SHA-256:1bfe7707894907a2792884fc726e1fe9251842fac75eaf5ef451bba0c18cbb4e",
+          "size": "92824",
+          "boards": [
+            {"name": "Gizduino X (ATmega1281)"},
+            {"name": "Gizduino+ w/ ATmega644"},
+            {"name": "Gizduino IOT-644"},
+            {"name": "Gizduino+ w/ ATmega324"},
+            {"name": "Gizduino+ w/ ATmega164"},
+            {"name": "Gizduino (mini) w/ ATmega328"},
+            {"name": "Gizduino (mini) w/ ATmega168"},
+            {"name": "Gizduino (mini) w/ ATmega88 (16 MHz)"},
+            {"name": "Gizduino (mini) w/ ATmega8 (8 MHz)"},
+            {"name": "Gizduino miniUSB w/ ATmega328"},
+            {"name": "Gizduino miniUSB w/ ATmega168"},
+            {"name": "Gizduino+ (mini) w/ ATmega644 (Sanguino mode)"},
+            {"name": "Gizduino+ (mini) w/ ATmega324 (Sanguino mode)"},
+            {"name": "Gizduino+ (mini) w/ ATmega164 (Sanguino mode)"},
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
