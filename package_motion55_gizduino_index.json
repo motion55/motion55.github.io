@@ -12,7 +12,7 @@
         {
           "name": "Gizduino Boards",
           "architecture": "avr",
-          "version": "080814",
+          "version": "14.08.08",
           "category": "Contributed",
           "help": {
             "online": "http://www.elab.ph/forum/index.php?board=140.0"
