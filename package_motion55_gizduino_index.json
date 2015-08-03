@@ -35,7 +35,7 @@
             {"name": "Gizduino miniUSB w/ ATmega168"},
             {"name": "Gizduino+ (mini) w/ ATmega644 (Sanguino mode)"},
             {"name": "Gizduino+ (mini) w/ ATmega324 (Sanguino mode)"},
-            {"name": "Gizduino+ (mini) w/ ATmega164 (Sanguino mode)"},
+            {"name": "Gizduino+ (mini) w/ ATmega164 (Sanguino mode)"}
           ],
           "toolsDependencies": [
             {
