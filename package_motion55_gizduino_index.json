@@ -12,15 +12,15 @@
         {
           "name": "Gizduino Boards",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "080814",
           "category": "Contributed",
           "help": {
             "online": "http://www.elab.ph/forum/index.php?board=140.0"
           },
-          "url": "https://github.com/motion55/gizduino/releases/download/0.0.1/gizduino.zip",
-          "archiveFileName": "gizduino.zip",
-          "checksum": "SHA-256:1bfe7707894907a2792884fc726e1fe9251842fac75eaf5ef451bba0c18cbb4e",
-          "size": "92824",
+          "url": "https://codeload.github.com/motion55/gizDuino-Boards/zip/080814",
+          "archiveFileName": "gizDuino-Boards-080814.zip",
+          "checksum": "SHA-256:F68D73A33213559E2824841FDFB8973309C9C91B69E863CC4137D0EF53C55CDC",
+          "size": "603043",
           "boards": [
             {"name": "Gizduino X (ATmega1281)"},
             {"name": "Gizduino+ w/ ATmega644"},
