@@ -17,10 +17,10 @@
           "help": {
             "online": "http://www.elab.ph/forum/index.php?board=140.0"
           },
-          "url": "https://codeload.github.com/motion55/gizDuino-Boards/zip/080814",
-          "archiveFileName": "gizDuino-Boards-080814.zip",
-          "checksum": "SHA-256:F68D73A33213559E2824841FDFB8973309C9C91B69E863CC4137D0EF53C55CDC",
-          "size": "603043",
+          "url": "https://github.com/motion55/gizDuino-Boards/archive/080814A.zip",
+          "archiveFileName": "gizDuino-Boards-080814A.zip",
+          "checksum": "SHA-256:354A8A65B8CF064DA46B13BE95701D3CCCA3BA79FAD4E110C38C75A5B8FCB643",
+          "size": "598327",
           "boards": [
             {"name": "Gizduino X (ATmega1281)"},
             {"name": "Gizduino+ w/ ATmega644"},
