@@ -19,8 +19,8 @@
           },
           "url": "https://motion55.github.io/Gizduino/Gizduino-0.9.0.zip",
           "archiveFileName": "Gizduino-0.9.0.zip",
-          "checksum": "SHA-256:9E6C6B508A2B5EEE5E218999520D4967F3025E2BBFF3B506FC8002576790E856",
-          "size": "267160",
+          "checksum": "SHA-256:0A3A9A7769534669A229EA29E0B74856370B7F7F8ECF584DACB98C29812F1D3A",
+          "size": "267163",
           "boards": [
             {"name": "Gizduino X (ATmega1281)"},
             {"name": "Gizduino IOT-644"},
