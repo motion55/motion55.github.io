@@ -6,7 +6,7 @@
       "websiteURL": "http://motion55.github.io/Gizduino/",
       "email": "motion55@yahoo.com",
       "help": {
-        "online": "https://github.com/motion55/Gizduino/"
+        "online": "https://motion55.github.io/Gizduino/"
       },
       "platforms": [
         {
@@ -15,9 +15,9 @@
           "version": "0.9.0",
           "category": "Gizduino",
           "help": {
-            "online": "https://github.com/motion55/motion55.github.io/Gizduino/"
+            "online": "https://motion55.github.io/Gizduino/"
           },
-          "url": "https://github.com/motion55/motion55.github.io/Gizduino/Gizduino-0.9.0.zip",
+          "url": "https://motion55.github.io/Gizduino/Gizduino-0.9.0.zip",
           "archiveFileName": "Gizduino-0.9.0.zip",
           "checksum": "SHA-256:AAB59A40188B9A90E9E0FC53983C9B4057CF767E3534BEA9F695E55B174B8F50",
           "size": "267160",
