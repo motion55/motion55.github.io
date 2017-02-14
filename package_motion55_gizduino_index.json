@@ -19,7 +19,7 @@
           },
           "url": "https://motion55.github.io/Gizduino/Gizduino-0.9.0.zip",
           "archiveFileName": "Gizduino-0.9.0.zip",
-          "checksum": "SHA-256:AAB59A40188B9A90E9E0FC53983C9B4057CF767E3534BEA9F695E55B174B8F50",
+          "checksum": "SHA-256:9E6C6B508A2B5EEE5E218999520D4967F3025E2BBFF3B506FC8002576790E856",
           "size": "267160",
           "boards": [
             {"name": "Gizduino X (ATmega1281)"},
@@ -52,7 +52,7 @@
               "host": "i686-mingw32",
               "archiveFileName": "avrdude-6.0.1.zip",
               "url": "https://motion55.github.io/Gizduino/avrdude-6.0.1.zip",
-              "checksum": "SHA-256:0E60347937D46C5DA9C04D3E8E69617B431CE5F8F13B1794DC459784345E32A4",
+              "checksum": "SHA-256:231327C31ABF653E4ADEC1E894E0EE180B44CABE171857D906722B80A75CAF10",
               "size": "192232"
             }
           ]
