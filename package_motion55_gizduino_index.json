@@ -1,41 +1,33 @@
 {
   "packages": [
     {
-      "name": "Gizuino",
-      "maintainer": "motion55",
-      "websiteURL": "http://motion55.github.io/Gizuino/",
-      "email": "motion55@users.noreply.github.com",
+      "name": "Gizduino",
+      "maintainer": "Butch Tabios",
+      "websiteURL": "http://motion55.github.io/Gizduino/",
+      "email": "motion55@yahoo.com",
       "help": {
-        "online": "https://github.com/motion55/gizuino/"
+        "online": "https://github.com/motion55/Gizduino/"
       },
       "platforms": [
         {
-          "name": "Gizduino Boards",
+          "name": "Gizduino AVR Boards",
           "architecture": "avr",
-          "version": "14.08.08",
-          "category": "Contributed",
+          "version": "0.9.0",
+          "category": "Gizduino",
           "help": {
-            "online": "http://www.elab.ph/forum/index.php?board=140.0"
+            "online": "https://github.com/motion55/motion55.github.io/Gizduino/"
           },
-          "url": "https://github.com/motion55/gizDuino-Boards/archive/080814A.zip",
-          "archiveFileName": "gizDuino-Boards-080814A.zip",
-          "checksum": "SHA-256:354A8A65B8CF064DA46B13BE95701D3CCCA3BA79FAD4E110C38C75A5B8FCB643",
-          "size": "598327",
+          "url": "https://github.com/motion55/motion55.github.io/Gizduino/Gizduino-0.9.0.zip",
+          "archiveFileName": "Gizduino-0.9.0.zip",
+          "checksum": "SHA-256:AAB59A40188B9A90E9E0FC53983C9B4057CF767E3534BEA9F695E55B174B8F50",
+          "size": "267160",
           "boards": [
-            {"name": "gizduino1281"},
-            {"name": "Gizduino+644"},
-            {"name": "GizduinoIOT"},
-            {"name": "Gizduino+324"},
-            {"name": "Gizduino+164"},
-            {"name": "Gizduino328"},
-            {"name": "Gizduino168"},
-            {"name": "Gizduino88"},
-            {"name": "Gizduino8"},
-            {"name": "MiniUSB328"},
-            {"name": "MiniUSB168"},
-            {"name": "Gizduino644"},
-            {"name": "Gizduino324"},
-            {"name": "Gizduino164"}
+            {"name": "Gizduino X (ATmega1281)"},
+            {"name": "Gizduino IOT-644"},
+            {"name": "Gizduino+"},
+            {"name": "Gizduino Mini"},
+            {"name": "Gizduino MiniUSB"},
+            {"name": "Gizduino+ Mini (Sanguino Mode)"}
           ],
           "toolsDependencies": [
             {
@@ -49,8 +41,9 @@
               "version": "6.0.1-arduino5"
             }
           ]
-        }
-      ]
+        },
+      ],
+      "tools": []
     }
   ]
 }
