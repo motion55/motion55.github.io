@@ -36,14 +36,28 @@
               "version": "4.8.1-arduino5"
             },
             {
-              "packager": "arduino",
+              "packager": "Gizduino",
               "name": "avrdude",
-              "version": "6.0.1-arduino5"
+              "version": "6.0.1"
             }
           ]
         }
       ],
-      "tools": []
-    }
+      "tools":[
+        {
+          "name": "avrdude",
+          "version": "6.0.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.0.1.zip",
+              "url": "https://motion55.github.io/Gizduino/avrdude-6.0.1.zip",
+              "checksum": "SHA-256:0E60347937D46C5DA9C04D3E8E69617B431CE5F8F13B1794DC459784345E32A4",
+              "size": "192232"
+            }
+          ]
+        }
+			]
+		}
   ]
 }
