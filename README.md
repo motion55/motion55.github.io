@@ -1,5 +1,6 @@
 # motion55.github.io
 
-Use this URL on the Boards manager to install Gizduino boards support on the Arduino IDE.
+This will add the option to add Gizduino boards through the Boards Manager.
+Copy and paste this URL in the "Additional Boards Manager URLs" box in the Preferences dialog. 
 
 https://motion55.github.io/package_motion55_gizduino_index.json
