@@ -1,6 +1,7 @@
 # motion55.github.io
+# Gizduino AVR Boards
 
-This will add the option to install Gizduino boards through the Boards Manager.
-Copy and paste this URL in the "Additional Boards Manager URLs" box in the Preferences dialog. 
+This will add the option to install Gizduino boards through the Arduino IDE Boards Manager.
+Copy and paste this URL in the "Additional Boards Manager URLs" box of the Preferences dialog. 
 
 https://motion55.github.io/package_motion55_gizduino_index.json
