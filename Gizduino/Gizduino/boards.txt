@@ -191,8 +191,9 @@ GizduinoMini.menu.cpu.atmega8.build.f_cpu=8000000L
 
 GizduinoMiniUSB.name=Gizduino MiniUSB
 
-GizduinoMiniUSB.upload.tool=avrdude
+GizduinoMiniUSB.upload.tool=miniUSB
 GizduinoMiniUSB.upload.protocol=usbasp
+GizduinoMiniUSB.upload.extra_params=-Pusb
 GizduinoMiniUSB.upload.disable_flushing=true
 
 GizduinoMiniUSB.bootloader.tool=avrdude
