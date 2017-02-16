@@ -2,6 +2,8 @@
 #miniUSB.communication=usb
 #miniUSB.protocol=usbasp
 #miniUSB.program.protocol=usbasp
-#miniUSB.program.tool={runtime.tools.miniUSB.path}/avrdude
+#miniUSB.program.tool=avrdude
 #miniUSB.program.extra_params=-Pusb
+#miniUSB.program.params.verbose=-v
+#miniUSB.config.path={runtime.tools.miniUSB.path}/avrdude.conf
 
