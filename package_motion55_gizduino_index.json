@@ -41,6 +41,28 @@
               "version": "6.0.1"
             }
           ]
+        },
+        {
+          "name": "Gizduino AVR Boards",
+          "architecture": "avr",
+          "version": "0.9.2",
+          "category": "Gizduino",
+          "help": {
+            "online": "https://motion55.github.io/Gizduino/"
+          },
+          "url": "https://motion55.github.io/Gizduino/Gizduino-0.9.2.zip",
+          "archiveFileName": "Gizduino-0.9.2.zip",
+          "checksum": "SHA-256:31B496653F6DF65EEA1D939D29300A53D895CF363AC2AA2EE5980685D5B2847E",
+          "size": "266784",
+          "boards": [
+            {"name": "Gizduino X (ATmega1281)"},
+            {"name": "Gizduino IOT-644"},
+            {"name": "Gizduino+"},
+            {"name": "Gizduino Mini"},
+            {"name": "Gizduino MiniUSB"},
+            {"name": "Gizduino+ Mini (Sanguino Mode)"}
+          ],
+          "toolsDependencies":[]
         }
       ],
       "tools":[
