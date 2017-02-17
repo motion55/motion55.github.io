@@ -38,9 +38,9 @@ GizduinoIOT.upload.maximum_data_size=4096
 GizduinoIOT.upload.speed=115200
 
 GizduinoIOT.bootloader.tool=avrdude
-GizduinoIOT.bootloader.low_fuses=0xff
-GizduinoIOT.bootloader.high_fuses=0xde
-GizduinoIOT.bootloader.extended_fuses=0xfd
+GizduinoIOT.bootloader.low_fuses=0xFF
+GizduinoIOT.bootloader.high_fuses=0xDE
+GizduinoIOT.bootloader.extended_fuses=0xFD
 GizduinoIOT.bootloader.file=gizduino+/optiboot_atmega644p.hex
 GizduinoIOT.bootloader.unlock_bits=0x3F
 GizduinoIOT.bootloader.lock_bits=0x0F
@@ -134,7 +134,7 @@ GizduinoMini.menu.cpu.atmega328p.upload.speed=115200
 
 GizduinoMini.menu.cpu.atmega328p.bootloader.low_fuses=0xFF
 GizduinoMini.menu.cpu.atmega328p.bootloader.high_fuses=0xDE
-GizduinoMini.menu.cpu.atmega328p.bootloader.extended_fuses=0x05
+GizduinoMini.menu.cpu.atmega328p.bootloader.extended_fuses=0xFD
 GizduinoMini.menu.cpu.atmega328p.bootloader.file=optiboot/optiboot_atmega328.hex
 
 GizduinoMini.menu.cpu.atmega328p.build.mcu=atmega328p
@@ -150,7 +150,7 @@ GizduinoMini.menu.cpu.atmega168p.upload.speed=115200
 
 GizduinoMini.menu.cpu.atmega328p.bootloader.low_fuses=0xFF
 GizduinoMini.menu.cpu.atmega328p.bootloader.high_fuses=0xDD
-GizduinoMini.menu.cpu.atmega168p.bootloader.extended_fuses=0x04
+GizduinoMini.menu.cpu.atmega168p.bootloader.extended_fuses=0xFC
 GizduinoMini.menu.cpu.atmega168p.bootloader.file=optiboot/optiboot_atmega168.hex
 
 GizduinoMini.menu.cpu.atmega168p.build.mcu=atmega168p
@@ -166,7 +166,7 @@ GizduinoMini.menu.cpu.atmega88.upload.speed=115200
 
 GizduinoMini.menu.cpu.atmega88.bootloader.low_fuses=0xFF
 GizduinoMini.menu.cpu.atmega88.bootloader.high_fuses=0xDD
-GizduinoMini.menu.cpu.atmega88.bootloader.extended_fuses=0x04
+GizduinoMini.menu.cpu.atmega88.bootloader.extended_fuses=0xFC
 GizduinoMini.menu.cpu.atmega88.bootloader.file=optiboot/optiboot_atmega88.hex
 
 GizduinoMini.menu.cpu.atmega88.build.mcu=atmega88
@@ -214,7 +214,7 @@ GizduinoMiniUSB.menu.cpu.atmega328p.upload.speed=19200
 
 GizduinoMiniUSB.menu.cpu.atmega328p.bootloader.low_fuses=0xFF
 GizduinoMiniUSB.menu.cpu.atmega328p.bootloader.high_fuses=0xDA
-GizduinoMiniUSB.menu.cpu.atmega328p.bootloader.extended_fuses=0x05
+GizduinoMiniUSB.menu.cpu.atmega328p.bootloader.extended_fuses=0xFD
 GizduinoMiniUSB.menu.cpu.atmega328p.bootloader.file=miniUSB/miniUSB_328.hex
 
 GizduinoMiniUSB.menu.cpu.atmega328p.build.mcu=atmega328p
@@ -230,7 +230,7 @@ GizduinoMiniUSB.menu.cpu.atmega168p.upload.speed=19200
 
 GizduinoMiniUSB.menu.cpu.atmega168p.bootloader.low_fuses=0xDF
 GizduinoMiniUSB.menu.cpu.atmega168p.bootloader.high_fuses=0xD6
-GizduinoMiniUSB.menu.cpu.atmega168p.bootloader.extended_fuses=0x00
+GizduinoMiniUSB.menu.cpu.atmega168p.bootloader.extended_fuses=0xF8
 GizduinoMiniUSB.menu.cpu.atmega168p.bootloader.file=miniUSB/miniUSB_168.hex
 
 GizduinoMiniUSB.menu.cpu.atmega168p.build.mcu=atmega168p
