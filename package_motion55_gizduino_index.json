@@ -63,6 +63,28 @@
             {"name": "Gizduino+ Mini (Sanguino Mode)"}
           ],
           "toolsDependencies":[]
+        },
+        {
+          "name": "Gizduino AVR Boards",
+          "architecture": "avr",
+          "version": "0.9.3",
+          "category": "Gizduino",
+          "help": {
+            "online": "https://motion55.github.io/Gizduino/"
+          },
+          "url": "https://motion55.github.io/Gizduino/Gizduino-0.9.3.zip",
+          "archiveFileName": "Gizduino-0.9.3.zip",
+          "checksum": "SHA-256:E7E6AFDEC12E8FF167A3331691C4127CA39FC8E2695AE40ACF72D3BDB658E74D",
+          "size": "269807",
+          "boards": [
+            {"name": "Gizduino X (ATmega1281)"},
+            {"name": "Gizduino IOT-644"},
+            {"name": "Gizduino+"},
+            {"name": "Gizduino Mini"},
+            {"name": "Gizduino MiniUSB"},
+            {"name": "Gizduino+ Mini (Sanguino Mode)"}
+          ],
+          "toolsDependencies":[]
         }
       ],
       "tools":[

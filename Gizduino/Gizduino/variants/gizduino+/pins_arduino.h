@@ -41,17 +41,26 @@ static const uint8_t SCK  = 13;
 
 static const uint8_t SDA = 25;
 static const uint8_t SCL = 24;
+
 static const uint8_t LED_BUILTIN = 13;
 
+#define PIN_A0   (14)
+#define PIN_A1   (15)
+#define PIN_A2   (16)
+#define PIN_A3   (17)
+#define PIN_A4   (18)
+#define PIN_A5   (19)
+#define PIN_A6   (20)
+#define PIN_A7   (21)
 
-static const uint8_t A0 = 14;
-static const uint8_t A1 = 15;
-static const uint8_t A2 = 16;
-static const uint8_t A3 = 17;
-static const uint8_t A4 = 18;
-static const uint8_t A5 = 19;
-static const uint8_t A6 = 20;
-static const uint8_t A7 = 21;
+static const uint8_t A0 = PIN_A0;
+static const uint8_t A1 = PIN_A1;
+static const uint8_t A2 = PIN_A2;
+static const uint8_t A3 = PIN_A3;
+static const uint8_t A4 = PIN_A4;
+static const uint8_t A5 = PIN_A5;
+static const uint8_t A6 = PIN_A6;
+static const uint8_t A7 = PIN_A7;
 
 #define digitalPinToPCICR(p)    (((p) >= 0 && (p) <= 31) ? (&PCICR) : ((uint8_t *)0))
 #define digitalPinToPCICRbit(p) (((p) <= 7) ? 3 : (((p) <= 13) ? 1 : (((p) <= 21) ? 0 : (((p) <= 23) ? 1 : 2))))
