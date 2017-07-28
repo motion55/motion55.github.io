@@ -96,7 +96,8 @@ static const uint8_t A7 = 21;
 //
 #define NUM_DIGITAL_PINS            32 //24
 #define NUM_ANALOG_INPUTS           8
-#define analogInputToDigitalPin(p)  ((p < NUM_ANALOG_INPUTS) ? (p) + 14 : -1)//((p < 7) ? (p) + 24 : -1) 
+#define analogInputToDigitalPin(p)  ((p) < NUM_ANALOG_INPUTS ? (p) + 14 : -1)
+#define analogPinToChannel(p)       ((p) < NUM_ANALOG_INPUTS ? (p) : (p) >= 14 ? (p) - 14 : -1)
 
 #define digitalPinHasPWM(p)         ((p) == 4 || (p) == 5 || (p) == 6 || (p) == 7 || (p) == 9 || (p) == 10 )
 
